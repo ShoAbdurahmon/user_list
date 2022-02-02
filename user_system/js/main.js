@@ -4,6 +4,7 @@ const new_user = document.querySelector(".btn-success")
 let form_inputs = document.querySelectorAll(".form-control")
 let searchUser = document.querySelector(".w-100")
 let lis = document.querySelectorAll('.nav-item')
+console.log("hello")
 
 
 lis[1].firstElementChild.children[1].textContent = workers.length
